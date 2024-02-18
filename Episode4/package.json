@@ -1,0 +1,27 @@
+{
+  "name": "foodyapp",
+  "version": "1.0.0",
+  "description": "A food ordering webapp inspired by swiggy made using ReactJs.",
+  
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "ReactJs"
+  ],
+  "author": "Bittu",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browseslist": [
+    "last two Chrome versions"
+  ],
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
