@@ -47,5 +47,24 @@
     cursor: pointer;
 }
 
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.shimmer-card{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(239, 231, 231);
+    margin: 20px;
+}
+
+.login{
+    padding: 0px,20px;
+    cursor: pointer;
+}
+
+.filter{
+    display: flex;
+}
 

@@ -1,6 +1,8 @@
 import {LOGO_URL} from "../../utils/constants";
+import { useState } from "react";
 
 const Haeder = () => {
+  const[login, setLogin] = useState("Login")
     return (
       <div className="header-container">
         <div className="logo-container">
@@ -16,7 +18,8 @@ const Haeder = () => {
             <li>About us</li>
             <li>contact us</li>
             <li>cart</li>
-          </ul>
+            <button className="login" onClick = {()=>setLogin(login === 'Login' ? 'Logout':'Login')}>{login}</button>
+             </ul>
         </div>
       </div>
     );
